@@ -2,6 +2,10 @@
 * {
   font-family: "Lato", sans-serif;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 /* header section */
 .intro {
   display: flex;
@@ -128,19 +132,17 @@ header {
    
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    padding: 80px 250px 100px 300px;
+    padding: 80px;
     margin: 150px 100px;
 }
 
-.picture1{
-    padding-left: 50px;
+.feature-picture-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.picture2{
-    padding-left: 50px;
-}
-.picture3{
-    padding-left: 50px;
-}
+
 .picture-caption{
     padding: 50px 0px opx 30px ;
     color: rgba(212, 57, 57, 0.8);
@@ -181,6 +183,8 @@ header {
     display: flex;
     justify-content: space-around;
     padding-bottom: 50px;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 .email-bar{
     border-radius: 8px;
@@ -213,12 +217,15 @@ header {
 /* ending section */
 .ending{
     background: #111010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
     
 }
 .ending-head{
     color: #E55473;
     font-size: 48px;
-   padding: 120px 0px 0px 600px  ;
 }
 .ending-tag{
     color: rgba(255, 255, 255, 0.40);
@@ -230,8 +237,6 @@ header {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 15px; 
-    height: 60px;
-    padding: 10px 500px 10px 500px ;
 }
 .shop{
     color: #FFF;
