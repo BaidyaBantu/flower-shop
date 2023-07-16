@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;800&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
+/* header section */
+.intro {
+  display: flex;
+  gap: 100px;
+}
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+.intro-image {
+  width: 500px;
+  height: 600px;
+  padding: 50px 100px 0px 100px;
+}
+.headline {
+  color: #272727;
+  font-family: Lato;
+  font-size: 65px;
+  /* font-weight: 500; */
+  padding-top: 50px;
+}
+.all-heading{
+    color: #272727;
+    text-align: center;  
+    font-size: 35px;
+    font-weight: 800;
+}
+.headline-des {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 15px;
+  /* font-weight: 400; */
+  padding-bottom: 30px;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #e55473;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 40px;
+}
+.intro {
+  padding-left: 200px;
+}
+/* main section of featured flowers */
+.featured-flowers > ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.featured-flowers > h4 {
+   text-align: center;
+   width: 594px;
+   padding-left: 450px;
+}
+.featured-des{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    width: 594px;
+    padding: 15px 0px 60px 450px ; 
+}
+.image-container {
+  width: 90%;
+  margin: 0 5%;
+  margin-bottom: 50px;
+}
+.featured-flowers-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.flower-div {
+  height: 502px;
+  width: 30%;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.image1 {
+  background-color: #e55473;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 472px;
+  width: 100%;
+}
+.image2 {
+  background-color: #e55473;
+  border-radius: 300px 300px 0px 0px;
+
+  background: rgba(5, 151, 160, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 472px;
+  width: 100%;
+}
+.image3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  background: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 472px;
+  width: 100%;
+}
+.img-title{
+    font-size: 24px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+/* other-feature */
+
+.feature-picture{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px 250px 100px 300px;
+    margin: 150px 100px;
+}
+
+.picture1{
+    padding-left: 50px;
+}
+.picture2{
+    padding-left: 50px;
+}
+.picture3{
+    padding-left: 50px;
+}
+.picture-caption{
+    padding: 50px 0px opx 30px ;
+    color: rgba(212, 57, 57, 0.8);
+     text-align: center;
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 35px; 
+ }
+/* sales section */
+.sales-container{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.feature-des{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    /* font-weight: 400; */
+}
+.sales-caption{
+    padding: 200px 210px 20px 200px ;
+}
+.sales-image{
+    padding:100px 200px 100px 100px ;
+}
+.sales-button{
+    padding: 20px 0px 40px 150px;
+}
+.off-title{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+/* instaram section */
+.instagram-image{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.email-bar{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 50px;
+    border: 0;
+ 
+   
+}
+.email-section{
+    background-image: url("images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    margin: 10px 100px 10px 30px ;
+    padding-top: 100px;
+}
+.button-input{
+    display: flex;
+    gap: 10px;
+    margin:10px 0px 0px 300px ;
+}
+#coupon{
+    padding-top: 10px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+}
+/* ending section */
+.ending{
+    background: #111010;
+    
+}
+.ending-head{
+    color: #E55473;
+    font-size: 48px;
+   padding: 120px 0px 0px 600px  ;
+}
+.ending-tag{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.ending-details{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 15px; 
+    height: 60px;
+    padding: 10px 500px 10px 500px ;
+}
+.shop{
+    color: #FFF;
+    font-size: 48px; 
+}
